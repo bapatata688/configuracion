@@ -1,0 +1,23 @@
+
+(com.github.Aylur.ags:1000): Gjs-CRITICAL **: 23:36:03.657: JS ERROR: TypeError: section.get_file() is null
+applyCss/<@resource:///com/github/Aylur/ags/app.js:73:34
+applyCss@resource:///com/github/Aylur/ags/app.js:81:29
+resetCss@file:///tmp/ags/hyprpanel/main.js:2723:9
+async*@file:///tmp/ags/hyprpanel/main.js:2731:7
+async*_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:263:34
+
+
+(com.github.Aylur.ags:1000): Gjs-Console-CRITICAL **: 23:36:03.660: Gtk.CssProviderError: <data>:1:0Expected a valid selector
+applyCss@resource:///com/github/Aylur/ags/app.js:81:29
+resetCss@file:///tmp/ags/hyprpanel/main.js:2723:9
+async*@file:///tmp/ags/hyprpanel/main.js:2731:7
+async*_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:263:34
+  
+
+(com.github.Aylur.ags:1000): Gjs-Console-WARNING **: 23:36:03.702: Another notification daemon is already running: Notification Daemon
+
+(com.github.Aylur.ags:1000): Gjs-Console-CRITICAL **: 23:36:03.904: Failed to fetch weather: % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+\u000d  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: api.weatherapi.com
+
+(com.github.Aylur.ags:1000): GLib-GObject-CRITICAL **: 23:36:07.199: value "nan" of type 'gdouble' is invalid or out of range for property 'value' of type 'gdouble'
